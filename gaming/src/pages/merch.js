@@ -6,7 +6,6 @@ class Merch extends React.Component{
     render(){
         return(
             <div>
-
 <CardDeck>
   <Card>
     <Card.Img variant="top" src="holder.js/100px160" />
@@ -49,7 +48,7 @@ class Merch extends React.Component{
     </Card.Footer>
   </Card>
 </CardDeck>
-            </div>
+</div>
         )
     }
 }

@@ -2,6 +2,7 @@ import './App.css';
 import './assets/css/gaming.css'
 import Home from './pages/home'
 import Navbar from './components/navbar'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import Social from './pages/social';

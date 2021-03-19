@@ -1,0 +1,11 @@
+/* Navbar */
+#rzn8nav{
+width:100px ;
+margin-top: -20px;
+}
+
+ul{
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+}

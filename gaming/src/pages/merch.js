@@ -1,14 +1,16 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 import CardDeck from 'react-bootstrap/CardDeck'
-
+import Cutter from '../assets/images/cutterhoodie.jpg'
+import Midas from '../assets/images/midashoodie.jpg'
+import Avalanche from '../assets/images/avalanchehoodie.jpg'
 class Merch extends React.Component{
     render(){
         return(
-            <div>
+            <div id='merch'>
 <CardDeck>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={Cutter} />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -21,7 +23,7 @@ class Merch extends React.Component{
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={Avalanche} />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>
@@ -34,7 +36,7 @@ class Merch extends React.Component{
     </Card.Footer>
   </Card>
   <Card>
-    <Card.Img variant="top" src="holder.js/100px160" />
+    <Card.Img variant="top" src={Midas} />
     <Card.Body>
       <Card.Title>Card title</Card.Title>
       <Card.Text>

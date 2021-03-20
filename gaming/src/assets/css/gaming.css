@@ -9,3 +9,37 @@ ul{
     display: flex;
     list-style: none;
 }
+/* Home Page */
+#home{
+    background-image: url(../images//nerd.jpg);
+background-size: cover;
+
+}
+#jumbotron{
+    background-image: url(../images//banner.gif);
+}
+/* Gamer Page */
+#games{
+    background-image: url(../images//comics.jpg);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+/* Merch Page */
+#merch{
+    background-image: url(../images//gamer.jpg);
+
+}
+
+/* Social Page */
+#social{
+    background-image: url(../images//nerd.jpg);
+    background-size: 70%;
+background-repeat: no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#gamerlogo{
+    width: 100px;
+}

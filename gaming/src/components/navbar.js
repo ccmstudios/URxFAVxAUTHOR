@@ -5,7 +5,7 @@ import Social from '../pages/social'
 import Games from '../pages/games'
 import Merch from '../pages/merch'
 import Home from '../pages/home'
-
+import Gamerlogo from '../assets/images/gamerlogo.JPG'
 class Navbar extends React.Component{
     render(){
         return(

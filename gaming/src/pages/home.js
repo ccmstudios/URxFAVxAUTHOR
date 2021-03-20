@@ -1,13 +1,22 @@
 import React from 'react'
 import Navbar from '../components/navbar'
-
+import Jumbotron from 'react-bootstrap/Jumbotron'
+import Container from 'react-bootstrap/Container'
+import ReactPlayer from "react-player"
 
 class Home extends React.Component{
     render(){
         return(
-            <div>
+            <div id='home'>
 <header>
-    <h1>Header Location</h1>
+<Jumbotron id='jumbotron' fluid>
+  <Container>
+    <h1>URxFAVxAUTHOR Gaming</h1>
+    <p>
+Sometimes you have to let the story play out...
+    </p>
+  </Container>
+</Jumbotron>
     </header>
 <section>
     <div>

@@ -11,8 +11,8 @@ ul{
 }
 /* Home Page */
 #home{
-    background-image: url(../images//nerd.jpg);
-background-size: cover;
+    background-image: url(../images//gamingbackground.gif);
+background-size: 100;
 
 }
 #jumbotron{
@@ -20,20 +20,22 @@ background-size: cover;
 }
 /* Gamer Page */
 #games{
-    background-image: url(../images//comics.jpg);
+    background-image: url(../images//gamingbackground.gif);
     display: inline-block;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    background-size: cover;
 }
 /* Merch Page */
 #merch{
-    background-image: url(../images//gamer.jpg);
+    background-image: url(../images//gamingbackground.gif);
 
 }
 
 /* Social Page */
 #social{
-    background-image: url(../images//nerd.jpg);
+    background-image: url(../images//gamingbackground.gif);
     background-size: 70%;
 background-repeat: no-repeat;
 display: flex;

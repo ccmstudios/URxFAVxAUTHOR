@@ -11,22 +11,24 @@ class Social extends React.Component{
     render(){
         return(
             <div id='social'>
-
-<Card style={{ width: '18rem' }}>
+<Card bg ='dark' text='white' style={{ width: '24rem' }}>
   <Card.Img variant="top" src={Nerd} />
-  <Card.Body>
-    <Card.Title>Let's Play</Card.Title>
+  <Card.Body bg ='dark' text='white'>
+    <Card.Title><h2>Let's Play!</h2></Card.Title>
     <Card.Text>
-     If you're looking for ways to follow my gaming, support my stream or just play with me: Check this out!
+     <h4>If you're looking for ways to follow my gaming, support my stream or just play with me: Check this out!</h4>
     </Card.Text>
   </Card.Body>
-  <ListGroup className="list-group-flush">
-    <ListGroupItem><img id='gamerlogo' src={Xbox}/>XBOX One Gamertag: URxFAVxAUTHOR</ListGroupItem>
-    <ListGroupItem><img id='gamerlogo' src={PS4}/>PS4 Gamertag: URxFAVxAUTHOR</ListGroupItem>
-  </ListGroup>
   <Card.Body>
-    <Card.Link href="https://www.facebook.com/NM-Porterfield-Gaming-107047141250651">Facebook</Card.Link>
-    <Card.Link href="www.patreon.com/urfavoriteauthor">Patreon</Card.Link>
+  <Card.Text>
+  <img id='gamerlogo' src={PS4}/>Gamertag: URxFAVxAUTHOR
+    </Card.Text>
+    <Card.Text>
+    <img id='gamerlogo' src={Xbox}/>Gamertag: URxFAVxAUTHOR
+
+    </Card.Text>
+    <Card.Link href="https://www.facebook.com/NM-Porterfield-Gaming-107047141250651"><h3>Facebook</h3></Card.Link>
+    <Card.Link href="www.patreon.com/urfavoriteauthor"><h3>Patreon</h3></Card.Link>
   </Card.Body>
 </Card>
 

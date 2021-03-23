@@ -10,7 +10,7 @@ import {useState} from 'react'
         };
       
         return (
-          <Carousel id='golem' activeIndex={index} onSelect={handleSelect}>
+          <Carousel id='highlights' activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item >
             <ReactPlayer
         url="https://youtu.be/VY9-v3Oi7LU"

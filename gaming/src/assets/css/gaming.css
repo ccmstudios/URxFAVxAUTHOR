@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 /* Navbar */
 #rzn8nav{
 width:100px ;
@@ -8,40 +10,102 @@ ul{
     justify-content: space-evenly;
     display: flex;
     list-style: none;
+    background-color: black;
+    font-family: 'Bebas Neue', cursive;
+}
+
+ul li{
+    color: white;
 }
 /* Home Page */
 #home{
-    background-image: url(../images//gamingbackground.gif);
-background-size: 100;
+
 
 }
 #jumbotron{
     background-image: url(../images//banner.gif);
+    color: white;
+    border: 5px black;
+    text-shadow: 2px 2px black;
+
+}
+
+#jumbotron h1{
+    letter-spacing: 2em;
+    text-shadow: 2px 2px black;
+}
+.homecards{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Gamer Page */
 #games{
-    background-image: url(../images//gamingbackground.gif);
     display: inline-block;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    background-size: cover;
+    /* width: 100%; */
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+#games h1{
+    /* text-shadow: 2px 2px black;
+    letter-spacing: 20px; */
+}
+
+#highlights{
+
 }
 /* Merch Page */
 #merch{
-    background-image: url(../images//gamingbackground.gif);
+    color: white;
+    padding: 10%;
+}
+
+#merch h1{
+    font-size: 150px;
+    text-shadow: 2px 2px black;
+    letter-spacing: 20px;
+}
+
+#merchcards{
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+#merchcards:hover{
+    transform: scale(1.1);
+}
+
+#merchards h4{
+    text-shadow: 2px 2px black;
 
 }
 
 /* Social Page */
 #social{
-    background-image: url(../images//gamingbackground.gif);
-    background-size: 70%;
+    color: white;
 background-repeat: no-repeat;
 display: flex;
 justify-content: center;
 align-items: center;
 }
+
+#social h1{
+    font-size: 150px;
+    text-shadow: 2px 2px black;
+    letter-spacing: 20px;
+}
 #gamerlogo{
     width: 100px;
+}
+
+/* Fonts */
+h1{
+    font-family: 'Bebas Neue', cursive;
 }

@@ -21,12 +21,12 @@ class Navbar extends React.Component{
                <img id='rzn8nav' alt='homeRZN8' src={RZN8}/>
                </Link>
            <Link to='/games'>
-               <li>Games 'N Highlights</li>
+               <li><h1>Games 'N Highlights</h1></li>
                </Link>
            <Link to='/merch'>
-               <li>Merchandise</li></Link>
+               <li><h1>Merch</h1></li></Link>
            <Link to='/social'>
-               <li>Let's Play</li>
+               <li><h1>Let's Play</h1></li>
            </Link>
            </ul>
                    </div>

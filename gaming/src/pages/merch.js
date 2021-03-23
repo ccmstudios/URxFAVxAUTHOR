@@ -4,49 +4,65 @@ import CardDeck from 'react-bootstrap/CardDeck'
 import Cutter from '../assets/images/cutterhoodie.jpg'
 import Midas from '../assets/images/midashoodie.jpg'
 import Avalanche from '../assets/images/avalanchehoodie.jpg'
+import Button from 'react-bootstrap/Button'
 class Merch extends React.Component{
     render(){
         return(
             <div id='merch'>
-<CardDeck>
-  <Card>
+              <h1>Merchandise</h1>
+              <h4>Get AWESOME gear from URxFAVxAUTHOR</h4>
+              <br></br>
+              <br></br>
+              <br></br>
+<CardDeck >
+  <Card id='merchcards' bg ='dark' text='white'>
     <Card.Img variant="top" src={Cutter} />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Golem Genesis: Cutter Hoodie</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This content is a little bit longer.
+      <h4>A custom hoodie from the Golem Genesis Comic written by N.M. Porterfield</h4>
       </Card.Text>
+      <Card.Text>
+ Cost: $45.00
+      </Card.Text>
+        <Button target='_blank' href='https://urfavoriteauthor.square.site/product/cutter-hoodie/45?cs=true&cst=custom' variant="light">Purchase Here!</Button>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">www.NMPORTERFIELD.com</small>
     </Card.Footer>
   </Card>
-  <Card>
+  <Card id='merchcards' bg ='dark' text='white'>
     <Card.Img variant="top" src={Avalanche} />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Golem Genesis: Avalanche Hoodie</Card.Title>
       <Card.Text>
-        This card has supporting text below as a natural lead-in to additional
-        content.{' '}
+      <h4>A custom hoodie from the Golem Genesis Comic written by N.M. Porterfield</h4>
+
       </Card.Text>
+      <Card.Text>
+ Cost: $45.00
+      </Card.Text>
+        <Button target='_blank' href='https://urfavoriteauthor.square.site/product/avalanche-hoodie/46?cs=true&cst=custom' variant="light">Purchase Here!</Button>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">www.NMPORTERFIELD.com</small>
     </Card.Footer>
   </Card>
-  <Card>
+  <Card id='merchcards' bg ='dark' text='white'>
     <Card.Img variant="top" src={Midas} />
     <Card.Body>
-      <Card.Title>Card title</Card.Title>
+      <Card.Title>Golem Genesis: Midas Hoodie</Card.Title>
       <Card.Text>
-        This is a wider card with supporting text below as a natural lead-in to
-        additional content. This card has even longer content than the first to
-        show that equal height action.
+      <h4>A custom hoodie from the Golem Genesis Comic written by N.M. Porterfield</h4>
+
       </Card.Text>
+      <Card.Text>
+ Cost: $45.00
+      </Card.Text>
+        <Button target='_blank' href='https://urfavoriteauthor.square.site/product/midas-hoodie/47?cs=true&cst=custom'variant="light">Purchase Here!</Button>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">www.NMPORTERFIELD.com</small>
     </Card.Footer>
   </Card>
 </CardDeck>

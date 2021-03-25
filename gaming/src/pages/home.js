@@ -1,7 +1,6 @@
 import React from 'react'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
-import ReactPlayer from "react-player"
 import Card from 'react-bootstrap/Card'
 import Nerd from '../assets/images/nerd.jpg'
 import Comics from '../assets/images/comics.jpg'

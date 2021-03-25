@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/navbar'
 import Card from 'react-bootstrap/Card'
 import Xbox from '../assets/images/xbox.png'
 import PS4 from '../assets/images/ps4.png'
@@ -19,10 +18,10 @@ class Social extends React.Component{
   </Card.Body>
   <Card.Body>
   <Card.Text>
-  <img id='gamerlogo' src={PS4}/>Gamertag: URxFAVxAUTHOR
+  <img id='gamerlogo' alt='ps4' src={PS4}/>Gamertag: URxFAVxAUTHOR
     </Card.Text>
     <Card.Text>
-    <img id='gamerlogo' src={Xbox}/>Gamertag: URxFAVxAUTHOR
+    <img id='gamerlogo' alt='xbox'src={Xbox}/>Gamertag: URxFAVxAUTHOR
 
     </Card.Text>
     <Card.Link href="https://www.facebook.com/NM-Porterfield-Gaming-107047141250651"><h3>Facebook</h3></Card.Link>

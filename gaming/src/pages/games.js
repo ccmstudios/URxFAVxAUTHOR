@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/navbar'
 import ReactPlayer from "react-player"
 import Highlights from '../components/highlights'
 

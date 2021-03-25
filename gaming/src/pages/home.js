@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/navbar'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Container from 'react-bootstrap/Container'
 import ReactPlayer from "react-player"

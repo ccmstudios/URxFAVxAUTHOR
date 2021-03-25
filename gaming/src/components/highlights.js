@@ -13,83 +13,85 @@ import {useState} from 'react'
           <Carousel id='highlights' activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item >
             <ReactPlayer
-        url="https://youtu.be/VY9-v3Oi7LU"
+        url="https://www.youtube.com/watch?v=2lu87_wdvy0"
         controls
   
       />
               <Carousel.Caption>
-                <h3>The Diamond Warrior Golem</h3>
-                <p>Cutter</p>
+                <h3>URxFAVxAUTHOR Takedown MidBoss
+</h3>
+                <p>Borderlands 3</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
             <ReactPlayer
-        url="https://youtu.be/yBOrDLPhIVQ"
+        url="https://www.youtube.com/watch?v=6VU-fGVgLRo"
         controls
       />
               <Carousel.Caption>
-                <h3>The Brimstone Golem</h3>
-                <p>Pompeii</p>
+                <h3>TVH mayhem 10 Rampager Battle URxFAVxAUTHOR
+</h3>
+                <p>Borderlands 3</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
             <ReactPlayer
-        url="https://youtu.be/70H6ENacYjk"
+        url="https://www.youtube.com/watch?v=ui5pk_GD5sg"
         controls
       />
               <Carousel.Caption>
-                <h3>The Island Golem</h3>
-                <p>Pacifica</p>
+                <h3>Tekken Montage</h3>
+                <p>Tekken 7</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
             <ReactPlayer
-        url="https://youtu.be/cuKOZKvVXzI"
+        url="https://www.youtube.com/watch?v=2i_cb0LGg78"
         controls
       />
               <Carousel.Caption>
-                <h3>The Desert shadow golem</h3>
-                <p>Sahara</p>
+                <h3>Getting My Mortal Kombat Legs back</h3>
+                <p>Mortal Kombat 11</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
             <ReactPlayer
-        url="https://youtu.be/TXGJNjAevMY"
+        url="https://www.youtube.com/watch?v=-kxvJkT9KsU"
         controls
       />
               <Carousel.Caption>
-                <h3>The Star Destroyer Golem</h3>
-                <p>Binary</p>
+                <h3>Horde Survival URxFAVxAUTHOR</h3>
+                <p>Days Gone</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
             <ReactPlayer
-        url="https://youtu.be/euADZS4xHV4"
+        url="https://www.youtube.com/watch?v=R3gFehGK8iI"
         controls
       />
               <Carousel.Caption>
-                <h3>The Planet Breaker Golem</h3>
-                <p>Asteros</p>
+                <h3>Online Amateur MK tourney</h3>
+                <p>Mortal Kombat XL</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
             <ReactPlayer
-        url="https://youtu.be/x3ebm26C49Y"
+        url="https://www.youtube.com/watch?v=t1Ren4k_Kkw"
         controls
       />
               <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>Lunar</p>
+                <h3>Apex Legends Run</h3>
+                <p>Apex Legends</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
             <ReactPlayer
-        url="https://youtu.be/e0YrvVgkomk"
+        url="https://www.youtube.com/watch?v=yBOrDLPhIVQ&t=8s"
         controls
       />
               <Carousel.Caption>
-                <h3>The Blizzard Golem</h3>
-                <p>Avalanche</p>
+                <h3>Apex Legends Wins</h3>
+                <p>Apex Legends</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

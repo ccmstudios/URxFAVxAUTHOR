@@ -16,6 +16,12 @@ ul{
 
 ul li{
     color: white;
+    transform: scale(0.9);
+}
+
+ul li:hover{
+transform: scale(1.1);
+transition: ease-in 0.7;
 }
 /* Home Page */
 #home{
@@ -109,3 +115,34 @@ align-items: center;
 h1{
     font-family: 'Bebas Neue', cursive;
 }
+
+/* media queries */
+
+@media screen and (max-width: 600px) {
+    #rzn8nav{
+        width:80px ;
+        margin-top: -15px;
+        }
+
+ul h1{
+    font-size: 24px;
+}
+#merch h1{
+    font-size: 30px;
+}
+#games h1{
+font-size: 24px;
+width: 75%;
+}
+#games h3{
+    font-size: 22px;
+    width: 75%;
+}
+#jumbotron h1{
+display: none;
+}
+
+#jumbotron h3{
+    display: none;
+}
+  }

@@ -13,7 +13,7 @@ class Games extends React.Component{
                 <h3>Fridays,Saturdays, and Sundays at 10pm EST</h3>
                 <br></br>
                 <h3>Twitch Livestream</h3>
-                <ReactPlayer
+                <ReactPlayer id='twitch'
         url="https://www.twitch.tv/urfavoriteauthor"
         controls
       />
